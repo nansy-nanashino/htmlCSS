@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,500,400,300);
+
+
+
+header{
+    text-align: center;
+    background-color: #d85;
+    margin-bottom: 5%;
+    position: relative;
+    }
+
+header>h1{
+    color: white;
+}
+
+
+
+
+
+header::after{
+    content:"";
+    display:block;
+    background-image: url(./img/bg_giza.png);
+    height: 5px;
+    width: 100%;
+    background-position: 0 0px;
+    position: absolute;
+}
+
+h1{
+    padding:40px;}
+
+body
+{background-image: url("./img/bg_noise.png");}
+
+.maintext{
+    margin-left: 8%;
+    width: 60%;
+}
+
+
+
+span{
+    color: white;
+    opacity: 0.3;
+}
+
+li>p{
+    opacity: 0.3;
+}
+
+.sidemanu{
+    margin-right: 8%;
+    background-color: white;
+    width: 20%;
+    float: right;}
+
+.sidemanu>p{
+    display: block;
+}
+
+.day>li{
+padding: 4%;
+width: 80%;
+list-style: none;
+margin: 2% auto;
+border-bottom: 1px;
+border-style: solid;
+border-color: #e2e2e2;
+}
+
+.day :last-child{
+border-bottom: none;
+}
+
+aside>h1{
+color: white;
+background-color: #868;
+padding: 3%;
+text-align: center;
+}
+
+aside>h1>img{
+    margin-bottom: -3px;
+    width: 17px;
+}
+
+aside>img{
+    width:100%;
+}
+
+.subtextone>img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.subtextone{
+    margin-bottom: 8%;
+}
+
+.subtextone>p{
+    margin-bottom: 2%;
+}
+.subtextone>h1{
+    color:#868;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+
+.subtexttwo{
+    margin-bottom: 20%;
+}
+
+.subtexttwo>h1{
+    font-size: 23px;
+    padding: 1%;
+    border-left: 10px;
+    border-color:  #868;
+    border-style: solid;
+    margin-bottom: 3%;
+}
+
+footer{
+    margin-top:5px;
+    font-size: 5px;
+    background-color: #d85;
+    text-align: center;
+    position: relative;
+}
+
+footer::before{
+    content:"";
+    display:block;
+    background-image: url(./img/bg_giza.png);
+    height: 5px;
+    width: 100%;
+    background-position: 0 -10px;
+    position: absolute;
+    top:  -5px;
+    left: 0;
+}
+
+
+.fin{
+    padding: 60px;
+}
+
+
+h1{
+font-weight: bold;
+}
